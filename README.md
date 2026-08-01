@@ -105,9 +105,9 @@ The models were evaluated using:
 
 # Results
 
-Linear Regression	19.96	538.59	23.21	0.9827
+Linear Regression	       19.96	    538.59     23.21	     0.9827
 
-Random Forest Regressor	23.01	782.17	27.97	0.9749
+Random Forest Regressor	 23.01	    782.17	   27.97	     0.9749
 
 # Best Performing Model
 
