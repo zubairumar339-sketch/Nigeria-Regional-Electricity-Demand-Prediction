@@ -44,31 +44,51 @@ Electricity_Demand_MWh	Target variable (Electricity demand in MWh)
 # Machine Learning Models
 The following regression models were implemented:
 •	Linear Regression
+
 •	Random Forest Regressor
+
 # Data Preprocessing
 The preprocessing pipeline includes:
 •	Handling categorical variables using One-Hot Encoding
+
 •	Feature scaling for numerical variables
+
 •	Train-test split (80% training, 20% testing)
+
 •	Pipeline implementation using Scikit-learn
+
 # Model Evaluation Metrics
 The models were evaluated using:
+
 •	Mean Absolute Error (MAE)
+
 •	Mean Squared Error (MSE)
+
 •	Root Mean Squared Error (RMSE)
+
 •	Coefficient of Determination (R²)
+
 # Results
 Linear Regression	19.96	538.59	23.21	0.9827
 Random Forest Regressor	23.01	782.17	27.97	0.9749
+
 # Best Performing Model
 The Linear Regression model achieved the highest predictive performance, recording the lowest prediction errors and the highest coefficient of determination (R² = 0.9827). Consequently, it was selected as the final model for regional electricity demand forecasting.
+
 # Feature Analysis
 The model identified the following variables as the most influential predictors of electricity demand:
 •	South West Region
+
 •	South South Region
+
 •	South East Region
+
 •	Industrial Index
+
 •	Commercial Index
+
 •	Residential Index
+
 •	Population Density
+
 These findings suggest that regional location and socioeconomic factors have a greater impact on electricity demand than weather-related variables.
